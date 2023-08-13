@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo.png"
 
 const navigation = [
   {
@@ -28,6 +29,7 @@ const Header = () => {
           to="/"
           className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 cursor-pointer"
         >
+          <img src={logo} className="w-14 h-14 ml-2  rounded-full "/>
           <span className="ml-3 text-xl">E-commerce</span>
         </Link>
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
@@ -39,7 +41,7 @@ const Header = () => {
             })
           }
         </nav>
-        <button className="inline-flex items-center text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-700 rounded text-base mt-4 md:mt-0 hover:scale-105 transition-all duration-500">
+        < button className="inline-flex items-center text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-700 rounded text-base mt-4 md:mt-0 hover:scale-105 transition-all duration-500">
           Go to Cart
         </button>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/logo.png"
 
 const Footer = () => {
   return (
@@ -6,10 +7,11 @@ const Footer = () => {
       <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-between md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <span className="ml-3 text-xl">E-commerce</span>
+          <img src={logo} className="w-14 h-14 ml-4  rounded-full " ></img> 
+          <span className="ml-3 text-xl">E-commerce</span>
           </a>
           <p className="mt-2 text-sm text-gray-500">
-            Air plant banjo lyft occupy retro adaptogen indego
+          Discover a World of Shopping Delights
           </p>
         </div>
         <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
@@ -83,20 +85,6 @@ const Footer = () => {
               target="_blank"
             ></a>
           </p>
-          <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-            <a className="text-gray-500">
-             
-            </a>
-            <a className="ml-3 text-gray-500">
-            
-            </a>
-            <a className="ml-3 text-gray-500">
-            
-            </a>
-            <a className="ml-3 text-gray-500">
-              
-            </a>
-          </span>
         </div>
       </div>
     </footer>
