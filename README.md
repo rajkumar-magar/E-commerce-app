@@ -1,4 +1,4 @@
-# E-coomerce App
+# E-commerce App
 
 A simple e-commerce web app built using the [FakeStoreAPI](https://fakestoreapi.com) REST API.
 
